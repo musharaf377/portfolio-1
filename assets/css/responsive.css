@@ -1,0 +1,36 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .contact-form form input[type="text"], .contact-form form input[type="email"]{width: 48.8%;}
+    .team-social {margin-bottom: 0px;}
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* .nav-menu{display: none;} */
+    .about-social {margin-bottom: 25px;}
+    .single-team{margin-bottom: 30px;}
+    .single-blog {margin-bottom: 30px;}
+    .contact-form form input[type="text"], .contact-form form input[type="email"]{width: 48.4%;}
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .banner-content h2 span {font-size: 50px;}
+    .banner-content h2 {font-size: 45px;}
+    .single-banner {height: 75vh;}
+    .single-counter {margin-bottom: 40px;}
+    .project-btn button {font-size: 17px;}
+    .single-testimonial {padding: 0px 15px;}
+    .contact-form form input[type="text"], .contact-form form input[type="email"]{width: 100%;}
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .banner-content h2 span {font-size: 35px;}
+    .banner-content h2 {font-size: 30px;} 
+    .banner-content h5 span {font-size: 25px;}
+    .banner-content h5 {font-size: 20px;}
+    .footer-content p {text-align: center;}
+    .widget-title {margin-top: 40px;}
+    .footer-bottom-menu {text-align: center;}
+ }
